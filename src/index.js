@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://localhost:5555');
+const socket = new WebSocket('wss://cloud-dashboard-backend.herokuapp.com/');
 
 const instancesContainer = document.getElementById('instances');
 const worklogsContainer = document.getElementById('worklogs');
