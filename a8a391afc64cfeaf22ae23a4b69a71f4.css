@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.instancesPanel {
+  float:left;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.instanceLabel {
+  margin-left: 23px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.instance {
+  width: 95%;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 30px auto;
+}
+
+#createInstanceButton {
+  text-align: center;
+}
+
+#createInstanceButton > a{
+  font-size: 20px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+#worklogPanel {
+  float: right;
+  min-height: 90vh;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-right: 200px;
+}
+
+a {
+  color: black;
+  margin-bottom: 100px;
+}
+
+.title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.instanceDescriptionLine {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.instanceInner {
+  margin: 15px 20px;
+}
+
+#worklogs {
+  margin: 15px 20px;
+  font-size: 20px;
+}
+
+.infoContainer {
+  margin-top: 15px;
+}
+
+.datetime {
+  margin-top: 10px;
+}
